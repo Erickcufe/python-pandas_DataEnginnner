@@ -2,15 +2,20 @@
 
 ## Entornos de python
 
+Esto para crear un entorno vacío:
 ```
 nvim setup-env.sh
 source setup-env.sh
 ```
-Esto para crear un entorno vacío.
 
+
+Para ver la documentación de pip:
 ```
 pip help
 ```
-Para ver la documentación de pip.
 
+Para ver la documentación del comando install:
+```
+pip help install
+```
 

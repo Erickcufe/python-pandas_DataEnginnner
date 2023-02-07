@@ -23,6 +23,7 @@ Para instalar el paquete **request**:
 
 ```
 pip install requests
+```
 
 Para ver los paquetes instalados en el entorno actual:
 

@@ -43,7 +43,6 @@ pip install requests==2.25.1
 Upgrade to the latest version:
 ```
 pip install requests --upgrade
-
 ```
 
 

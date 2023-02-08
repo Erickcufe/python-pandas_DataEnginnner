@@ -46,6 +46,23 @@ Upgrade to the latest version:
 pip install requests --upgrade
 ```
 
+Guardar archivo de requisitos en Python:
+```
+pip freeze > requierements.txt
+cat requierements.txt
+```
+
+Para desinstalar los requisitos:
+```
+pip uninstall -r requirements.txt
+```
+
+
+
+
+
+
+
 
 
 

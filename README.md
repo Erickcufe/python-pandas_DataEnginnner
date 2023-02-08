@@ -57,6 +57,29 @@ Para desinstalar los requisitos:
 pip uninstall -r requirements.txt
 ```
 
+## Creación y uso de un entorno virtual Python
+
+A partir de Python 3.5 se pueden generar entornos con la funcion `venv`:
+```
+python -m venv enviroment-name
+```
+
+Los pasos para la creacion del entorno virtual en un projecto son los siguientes:
+```
+mkdir my_new_project
+cd my_new_project
+python -m venv env
+ls env 
+source env/bin/activate
+```
+
+A partir de ahora todo lo que se instale con **pip** será guardado exclusivamente en este entorno virtual.
+
+Para desactivar el entorno virtual se usa el comando `deactivate`
+
+
+
+
 
 
 

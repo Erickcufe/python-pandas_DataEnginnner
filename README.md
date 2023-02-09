@@ -77,6 +77,12 @@ A partir de ahora todo lo que se instale con **pip** será guardado exclusivamen
 
 Para desactivar el entorno virtual se usa el comando `deactivate`
 
+## Interactive Python Sell
+
+```pip install ipython```
+
+```ipython```
+
 
 
 

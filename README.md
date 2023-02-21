@@ -118,10 +118,27 @@ import pandas as pd
 pd.DataFrame
 ```
 
+## Other Simple Statements
 
+- Expression Statements
+- Assert Statements
+- Assigment Statements
+- Pass Statements 
+- Del Statements
+- Return Statements
+- Yield Statements 
+- Raise Statements
+- Break Statements
+- Continue Statements
+- Import Statements
+- Future Statements 
+- Global Statements 
+- Nonlocal Statements
 
+## Compound Statements 
 
-
+Controlling statement
+![](img1.png)
 
 
 

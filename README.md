@@ -187,6 +187,84 @@ All objects (everything) in Python evaluates as True or False. This means you ca
 2. The constants `False` and `None`
 3. Anything that has a length of zero. This includes the empty string, `""`
 
+### Basic if-statement syntax
+
+```
+if False:
+  print('In the block')
+
+print('After the block')
+```
+
+### Else syntax
+
+```
+score = 1
+
+if score > 3:
+  print('You win')
+else:
+  print('You Lose')
+```
+
+### Nested if-statements 
+
+```
+count = 2
+
+if count < 3:
+  print('Count more')
+else:
+  if count > 3:
+      print('Count less')
+```
+
+### Elif syntax
+
+```
+count = 6
+
+if count < 3:
+  print('Count more')
+elif count > 3:
+  print('Count less')
+elif count == 3:
+  print('yes')
+else:
+  print('fall through')
+```
+
+### Match statements (pyhton 3.10)
+
+```
+temp = 38
+
+match temp:
+  case 33:
+      print('too low')
+  case 40:
+      print('too high')
+  case _:
+      print('I don't know')
+``` 
+
+```
+pos = (12, 13)
+
+match pos:
+  case (22, 33):
+      print('one')
+  case (12, y):
+      print(y)
+```
+
+
+
+
+
+ 
+
+
 
 
 

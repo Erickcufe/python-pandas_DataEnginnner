@@ -148,4 +148,46 @@ Controlling statement
 - for
 - def
 
+## Evaluating to True or False
+
+- `==` Equals 
+- `!=` Not Equals 
+- `<` Less Than
+- `<=` Lesst Than or Equal
+- `>` Greater Than
+- `>=` Greater Than or Equal
+
+The comparison operators which compare by identity are **is** and **is not**. They are most commonly used to compare against the special object **None**.
+
+```
+print(1 is None)
+print(True is not None)
+```
+
+### Membership Operations
+
+Some objects in Python can contain others. For example, the word "Henry" (of type string), contains the letter "r" (also a string). The in operator tests for this type of membership. The expression "r" **in** "Henry" will return True, and "b" **in** "Henry" will return False.
+
+```
+print('e' in 'Henry')
+print('a' not in 'Henry')
+```
+
+### Boolean Operations
+
+- **and**
+- **not**
+- **or**
+
+### Object Evaluations
+
+All objects (everything) in Python evaluates as True or False. This means you can use them in the places where you would test for True or False, such as in Boolean operations. Generally, most Python objects evaluate as True. The exceptions are:
+
+1. Numeric Types that equal zero, such as 0, or 0.0
+2. The constants `False` and `None`
+3. Anything that has a length of zero. This includes the empty string, `""`
+
+
+
+
 

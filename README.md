@@ -97,6 +97,26 @@ a += 1
 a /= 2
 ```
 
+## Import Module
+
+```
+import os
+import pandas
+
+os.getcwd()
+os.path.isdir('.')
+```
+
+```
+from os import path
+path.isdir()
+
+from os.path import isdir
+isdir('.')
+
+import pandas as pd
+pd.DataFrame
+```
 
 
 

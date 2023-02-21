@@ -84,7 +84,18 @@ Para desactivar el entorno virtual se usa el comando `deactivate`
 ```ipython```
 
 
+## Assigment Statements
 
+```
+a, b, c = 1, 3, 4 
+
+#Para asignar mas de un valor a una variable se usa *
+a, *b, c = 1,2,3,4,4,5
+
+a += 1
+
+a /= 2
+```
 
 
 

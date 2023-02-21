@@ -140,6 +140,11 @@ pd.DataFrame
 Controlling statement
 ![](img1.png)
 
+**Keywords**
 
+- if
+- while
+- for
+- def
 
 

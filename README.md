@@ -258,10 +258,30 @@ match pos:
       print(y)
 ```
 
+### While Loops
 
+**Basic while syntax**
 
+```
+count = 0
+while count < 5:
+  print(count)
+  count += 1
+```
 
+**Break statement**
 
+```
+count = 0
+
+while count < 5:
+  print(count)
+  count += 1
+  if count == 3:
+      break
+```
+
+**Note**: Ensuring exit condition
  
 
 

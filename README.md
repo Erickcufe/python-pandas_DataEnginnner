@@ -283,9 +283,65 @@ while count < 5:
 
 **Note**: Ensuring exit condition
  
+## Functions
 
+### Function syntax
 
+```
+def my_func():
+  print('hi')
+  
+my_func()
+```
 
+### Pass statement 
 
+"The pass statement is used as a placeholder for future code. When the pass statement is executed, nothing happens, but you avoid getting an error when empty code is not allowed. Empty code is not allowed in loops, function definitions, class definitions, or in if statements."
 
+```
+def do_nothing():
+  pass
 
+do_nothing == None
+```
+
+### Return statement
+
+```
+def ret_two():
+  return 2
+
+ret_two()
+```
+
+### Paramenters
+
+``` 
+def add_one(num):
+  return num + 1
+
+add_one(2)
+add_one(6)
+```
+
+### Parameters by order and by name 
+
+```
+def my_func(first, second, third):
+  print(first)
+  print(second)
+  print(third)
+  
+my_func(1,3,4)
+my_func(third = 1, first = 4, second = 22)
+```
+
+### Setting default values
+
+``` 
+def say_hello(name = "Henri"):
+  print("Hell" + name)
+  
+say_hello()
+say_hello('June')
+``` 

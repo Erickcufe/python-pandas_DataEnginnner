@@ -355,3 +355,49 @@ say_hello('June')
 - **Strings** `"123"`
 - **Binary Strings** `b"123"`
 - **Ranges Objects** `range(1, 4)`
+
+### Shared Sequence Operations
+
+- **Membership**
+
+```
+3 in [1,2,3,4,5]
+
+12 not in [1,2,3,4,5]
+```
+
+- **Indexing**
+
+```
+name = "Monteverdi"
+name[0]
+```
+
+- **Slicing**
+
+```
+name = "Palestrina
+name[2:5]
+name[:5]
+name[4:]
+name[-3:]
+name[::2] #nos da toda la secuencia menos el indice que se pone
+```
+
+- **Interrogation**
+
+```
+len(name)
+min(name)
+max(name)
+name.count('e')
+name.index('i')
+```
+
+- **Math**
+
+```
+"prefix" + "-" + "pstfix"
+[1,2] + [3,4]
+[0,2] * 4
+```

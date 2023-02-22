@@ -345,3 +345,13 @@ def say_hello(name = "Henri"):
 say_hello()
 say_hello('June')
 ``` 
+
+# Python Essentials
+
+## Sequences
+
+- **Lists** `[ 1, 2, 3 ]`
+- **Tuples** `( 1, 2, 3 )`
+- **Strings** `"123"`
+- **Binary Strings** `b"123"`
+- **Ranges Objects** `range(1, 4)`

@@ -401,3 +401,50 @@ name.index('i')
 [1,2] + [3,4]
 [0,2] * 4
 ```
+
+## Lists & Tuples
+
+### Lists**:
+
+- Hold items of any data type
+- Mixed data types
+- Mutable
+  - Adding
+  - Removing 
+  - Reordering
+
+**Create:**
+
+```
+list()
+some_list = [1,2,3]
+some_list
+
+name = "Beethoven"
+letters = list(name)
+letters
+```
+
+### Tuples
+
+- Hold items of any data type
+- Mixed data types
+- Immutable
+  - Set during creation
+
+**Create:**
+
+```
+tuple()
+some_tuple = (1,2,3)
+some_tuple
+
+tup = (1)
+
+tup = 1,
+
+name = "Beethoven"
+letters = tuple(name)
+letters
+```
+

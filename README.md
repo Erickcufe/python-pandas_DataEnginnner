@@ -404,7 +404,7 @@ name.index('i')
 
 ## Lists & Tuples
 
-### Lists**:
+### Lists:
 
 - Hold items of any data type
 - Mixed data types
@@ -424,6 +424,34 @@ name = "Beethoven"
 letters = list(name)
 letters
 ```
+
+**Adding and Removing Items:**
+
+```
+composers = ['Vivaldi', 'Mozart']
+composers
+
+composers.apped('Brahms')
+composers.insert(0, 'Perotin')
+composers.pop(0)
+
+vips = ['Da Vinci', 'Franklin']
+vips.extend(composers)
+
+# Create list of lists
+lists = [[] for _in range(4)]
+lists[-1].append(4)
+lists
+``` 
+
+**Ordering**
+
+```
+name = "Beethoven"
+letters = list(name)
+letters.sort()
+letters.reverse()
+``` 
 
 ### Tuples
 

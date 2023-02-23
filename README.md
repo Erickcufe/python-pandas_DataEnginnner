@@ -515,3 +515,14 @@ leo.find('r')
 leo.startswith('L')
 leo.endswith('in')
 ```
+
+**Content Type**
+
+```
+'abc123'.isalpha()
+'abc123'.isalnum()
+'lowercase'.islower()
+'lowercase'.isupper()
+one = '1'
+one.isnumeric()
+```

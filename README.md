@@ -476,3 +476,42 @@ letters = tuple(name)
 letters
 ```
 
+## Strings
+
+```
+'Here is a string'
+"Here is a string" == 'Here is a string'
+'Here "is" a string'
+
+a_very_large_phrase = """
+Wikipedia is hosted by the Wikimedia Foundation,
+a non-profit organization that also hosts a range of other projects
+"""
+
+print(a_very_large_phrase)
+
+print("Ludwig/tBeethoven")
+print("Ludwig/nBeethoven")
+
+windows_path = "c:\tamProjects\now"
+print(windows_path)
+
+windows_path = r"c:\tamProjects\now"
+print(windows_path)
+
+bill = "William Byrd"
+bill.capitalize()
+bill.lower()
+bill.upper()
+```
+
+**Interrogation**
+
+```
+leo = 'Leonin'
+leo.index("e")
+leo.index('r')
+leo.find('r')
+leo.startswith('L')
+leo.endswith('in')
+```
